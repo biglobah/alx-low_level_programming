@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Entry
+ * print_alphabet - Entry
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
@@ -13,5 +13,4 @@ int main(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
