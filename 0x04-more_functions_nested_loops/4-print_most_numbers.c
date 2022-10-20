@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print some numberts
+ * print_most_numbers - print some numbers
  *
  * Return: void
  */
 void print_most_numbers(void)
 {
-	int a;
+int:w a;
 	{
-		for (a >= 0; a <= 9; a++)
+		for (a = '0'; a < '9'; a++)
 		{
 			if (a != 2)
 			{

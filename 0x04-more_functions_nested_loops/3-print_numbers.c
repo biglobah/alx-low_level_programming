@@ -7,12 +7,9 @@
  */
 void print_numbers(void)
 {
-	int c;
+	int ch;
 
-	for (c >= 0; c <= 9; c++)
-	{
-		_putchar(c);
-
-	}
+	for (ch = 48; ch < 58; ch++)
+		_putchar(ch);
 	_putchar('\n');
 }
